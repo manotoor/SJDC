@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="130dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/headerImg"
+        android:src="@mipmap/deltacollege_main"
+        android:layout_marginLeft = "30dp"
+        android:layout_marginTop= "15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SJDC"
+        android:layout_toRightOf="@+id/headerImg"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/name"/>
+
+</RelativeLayout>

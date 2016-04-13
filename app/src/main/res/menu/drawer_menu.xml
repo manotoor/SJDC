@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <menu>
+            <item
+                android:id="@+id/signin_id"
+                android:title="Sign in"></item>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:title="Home" ></item>
+        <item
+            android:id="@+id/map_id"
+            android:title="Map"></item>
+        <item
+            android:id="@+id/event_id"
+            android:title="Events" ></item>
+        <item
+            android:id="@+id/news_id"
+            android:title="News"></item>
+        <item
+            android:id="@+id/athletics_id"
+            android:title="Athletics"></item>
+        <item
+            android:id="@+id/academics_id"
+            android:title="My Academics"
+            ></item>
+        <item
+            android:id="@+id/catalog_id"
+            android:title="Catalog"
+            ></item>
+        <item
+            android:id="@+id/bus_id"
+            android:title="Express"
+            ></item>
+        <item
+            android:id="@+id/videos_id"
+            android:title="Videos"
+            ></item>
+        <item
+            android:id="@+id/photos_id"
+            android:title="Photos"
+            ></item>
+        <item
+            android:id="@+id/directory_id"
+            android:title="Directory"
+            ></item>
+    </group>
+    <item android:title="EMERGENCY">
+        <menu>
+            <item
+                android:title="Emergency Contacts"
+                android:id="@+id/emergency_id"></item>
+            <item
+                android:title="Contact Police Now!"
+                android:id="@+id/police_id"></item>
+        </menu>
+    </item>
+    <item android:title="More">
+        <menu>
+            <item
+                android:title="Full Site"
+                android:id="@+id/fullsite_id"></item>
+            <item
+                android:title="About"
+                android:id="@+id/about_id"></item>
+        </menu>
+    </item>
+</menu>
